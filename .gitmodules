@@ -4,8 +4,8 @@
 	branch = riscv-binutils-2.38
 [submodule "riscv-gcc"]
 	path = riscv-gcc
-	url = https://github.com/riscv-collab/riscv-gcc.git
-	branch = riscv-gcc-10.2.0
+	url = https://github.com/pz9115/riscv-gcc
+	branch = riscv-gcc-experimental-bkp
 [submodule "glibc"]
 	path = glibc
 	url = git://sourceware.org/git/glibc.git
@@ -28,3 +28,6 @@
 	path = musl
 	url = git://git.musl-libc.org/musl
 	branch = master
+[submodule "riscv-gcc.binutils"]
+	url = https://github.com/pz9115/riscv-binutils-gdb
+	branch = riscv-binutils-experimental-bkp
