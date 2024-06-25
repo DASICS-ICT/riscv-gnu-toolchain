@@ -8,7 +8,8 @@
 	branch = releases/gcc-13
 [submodule "glibc"]
 	path = glibc
-	url = https://sourceware.org/git/glibc.git
+	url = https://github.com/DASICS-ICT/glibc.git
+	branch = dasics-glibc-2.36
 [submodule "dejagnu"]
 	path = dejagnu
 	url = https://git.savannah.gnu.org/git/dejagnu.git
@@ -38,5 +39,5 @@
 	branch = master
 [submodule "llvm"]
 	path = llvm
-	url = https://github.com/llvm/llvm-project.git
-	branch = release/17.x
+	url = https://github.com/DASICS-ICT/llvm-project.git
+	branch = dasics-llvmorg-18.1.1
