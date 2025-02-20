@@ -9,7 +9,7 @@
 [submodule "glibc"]
 	path = glibc
 	url = https://github.com/DASICS-ICT/glibc.git
-	branch = dasics-glibc-2.36
+	branch = dasics-master
 [submodule "dejagnu"]
 	path = dejagnu
 	url = https://git.savannah.gnu.org/git/dejagnu.git
